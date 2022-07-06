@@ -6,7 +6,7 @@ This script automates the build of an and configuration ec2 and runs custom scri
 
 It main point of entry is the main.yml file
 
-It has a main workfolw which can be found in the roles/setup/tasks/main.yml
+It has 1  workflow which is the -setup can be found in the roles/setup/tasks/main.yml
 
 It also has a custom inventory file that allows you define all the machines you want to run this script on
 
