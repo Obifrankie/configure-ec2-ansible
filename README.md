@@ -14,6 +14,6 @@ The path to this play roles/setup/tasks/main.yml
 
 It also has a custom inventory file that allows you define all the machines you want to run this playbook on
 
-To run this script localy ensure that you have ansile configured locally by running the show command python3 -m pip show ansible
+To run this playbook localy ensure that you have ansile configured locally by running the show command python3 -m pip show ansible
 
-and run the script with the following command ansible-playbook main.yml
+and run the playbook with the following command ansible-playbook main.yml
