@@ -6,9 +6,13 @@ This script automates the build of an and configuration ec2 and runs custom scri
 
 It main point of entry is the main.yml file
 
-It has 1  workflow which is the -setup can be found in the roles/setup/tasks/main.yml
+This playbook automates the build and configuration of an instance and runs custom scripts on configuration
 
-It also has a custom inventory file that allows you define all the machines you want to run this script on
+It has 1 play which is the 
+-setup 
+The path to this play roles/setup/tasks/main.yml
+
+It also has a custom inventory file that allows you define all the machines you want to run this playbook on
 
 To run this script localy ensure that you have ansile configured locally by running the show command python3 -m pip show ansible
 
