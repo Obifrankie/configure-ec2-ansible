@@ -2,6 +2,8 @@
 
 This CI script is writing in yaml
 
+This script automates the build of an and configuration ec2 and runs custom scripts on configuration
+
 It main point of entry is the main.yml file
 
 It has a main workfolw which can be found in the roles/setup/tasks/main.yml
